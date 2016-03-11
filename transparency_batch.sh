@@ -17,12 +17,4 @@ done
 
 echo; echo
 
-#for file in [jx]*
-#do
-# gdal_translate -of GTiff -co PROFILE=GeoTIFF input.tif output.tif
-# echo "Exported file \"$file\"".
-#done
-
-#echo
-
 exit 0
